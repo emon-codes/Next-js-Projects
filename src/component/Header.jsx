@@ -8,7 +8,7 @@ const Header = () => {
         <div className="font-semibold text-2xl text-red-800">EMON</div>
 
         <div className="flex flex-row gap-4 font-Roboto">
-          <Link href="/">Home</Link>
+          <Link href="/" className="text-primary">Home</Link>
           <Link href="/about">About Us</Link>
           <Link href="/contact">Contact Us</Link>
 
